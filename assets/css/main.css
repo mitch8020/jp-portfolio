@@ -1751,7 +1751,7 @@ input, select, textarea {
 /* List */
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		padding-left: 1em;
 	}
 
@@ -1986,6 +1986,12 @@ input, select, textarea {
 			.icon.featured:before {
 				font-size: 6em;
 			}
+	
+	.tech-icons {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
 
 /* Wrappers */
 
