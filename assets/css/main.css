@@ -181,6 +181,15 @@ input, select, textarea {
 	h3 {
 		font-size: 1.5em;
 		letter-spacing: -0.015em;
+		height: 1.5em;
+		padding-bottom: 3em;
+		vertical-align: middle;
+	}
+
+	h3 + p.tech {
+		height: 4em;
+		padding-top: .5em;
+		vertical-align: middle;
 	}
 
 	em, i {
@@ -1991,6 +2000,10 @@ input, select, textarea {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
+	}
+
+	.tech-icons img {
+		width: 144px;
 	}
 
 /* Wrappers */
